@@ -1,0 +1,96 @@
+body {
+    background-color: darkgray;
+    user-select: none;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(184, 176, 184);
+    margin: 5px;
+}
+
+#container {
+    margin:0 auto;
+    width: 400px;
+    background-color: rgb(14, 25, 34);
+}
+
+#screen {
+    background-color: rgb(221, 220, 220);
+    width: 360px;
+    height: 130px;
+    margin: 20px auto;
+    font-size: 2.25rem;
+    text-align: right;
+    color: black;
+    overflow: scroll;
+    user-select: text;
+}
+
+#screen1 {
+    font-size: 70%;
+}
+
+#btncon,
+#num {
+    display: flex;
+}
+
+#num {
+    flex: 75%;
+}
+
+#func {
+    flex: 25%;
+}
+
+.btnnum {
+    height: 15.5%;
+}
+
+.btnnum,
+.btnfunc {
+    flex: 50%;
+    text-align: center;
+    font-size: 2rem;
+    color: rgb(184, 176, 184);
+    padding: 20px;
+}
+
+#num1,
+#num2,
+#num3,
+#num4 {
+    width: 100%;
+}
+
+#func1 {
+    clear: right;
+    text-align: left;
+}
+
+.btnfunc {
+    background-color: darkslategray;
+}
+
+
+
+.btn:hover {
+    transition: .1s;
+    background-color: rgb(184, 176, 184);
+    color: rgb(14, 25, 34);
+}
+
+.btn:active {
+    transition: .07s;
+    background-color: rgb(14, 25, 34);
+    color: rgb(184, 176, 184);
+}
+
+.refresh {
+    color: blanchedalmond;
+    text-align: center;
+   margin:-11px auto 2px;
+    font-size: 80%;
+}
